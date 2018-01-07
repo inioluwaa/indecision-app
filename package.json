@@ -1,0 +1,12 @@
+{
+  "name": "indecision-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:inioluwaa/indecision-app.git",
+  "author": "Inioluwa Akinleye <inioluwaakinleye@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
