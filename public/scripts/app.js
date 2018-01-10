@@ -1,13 +1,15 @@
-'use strict';
+"use strict";
 
-/*
-const getFirstName = (fullName) => {
-  return fullName.split(' ')[0];
+var multiplier = {
+  numbers: [2, 5, 10],
+  multiplyBy: 3,
+  multiply: function multiply() {
+    var _this = this;
+
+    return this.numbers.map(function (number) {
+      return number * _this.multiplyBy;
+    });
+  }
 };
-*/
 
-var getFirstName = function getFirstName(fullName) {
-  return fullName.split(' ')[0];
-};
-
-console.log(getFirstName('Mike Smith'));
+console.log(multiplier.multiply());
